@@ -1,9 +1,6 @@
 
 $(document).ready(function(){
     
-
-
-
     $("a").css({"opacity": "1"});
 
     
@@ -11,11 +8,25 @@ $(document).ready(function(){
   
 
 
+
+
     $(".navbar").hover(function(){
+
+      
+                
 
       $(".navbar").css({"background-color": "rgba(34, 34, 34, 0.549)"});
  
       $(".navbar> .section > a").css({"color": "white"});
+      $(".contacts").hover(function(){
+
+        $(".contact").css({"background-color": "white"});
+        
+        },
+        function(){
+            
+            $(this).css({"background-color": "black"});
+        });
 
     },
     function(){
@@ -28,7 +39,10 @@ $(document).ready(function(){
 
 
     
-    
+
+
+
+
     $(".footer").hover(function(){
         $(".footer").css({"background-color": "rgba(34, 34, 34, 0.549)"});
 
