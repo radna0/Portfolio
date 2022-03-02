@@ -17,4 +17,17 @@
             <div class="section me"><a href="#">HGB</a></div>
 
             <div class="section"><a href="contacts.php" a>Contacts</a></div>
+            <ul>
+                <li>
+                    <p>Emails: kojoes999@gmail.com</p>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt="" /></a>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
         </nav>

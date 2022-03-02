@@ -45,6 +45,13 @@ html {
   opacity: 0;
   transition: opacity 2s cubic-bezier(1, 0, 0.27, -0.02), font-size 1s ease;
 }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  position: relative;
+}
 
 .footer {
   position: fixed;
