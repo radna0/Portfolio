@@ -2,7 +2,7 @@
 $(document).ready(function(){
     
     $("a").css({"opacity": "1"});
-
+    
     
     $(".title").css({"opacity": "1"});
   
@@ -12,29 +12,48 @@ $(document).ready(function(){
 
     $(".navbar").hover(function(){
 
-      
-                
-
       $(".navbar").css({"background-color": "rgba(34, 34, 34, 0.549)"});
  
       $(".navbar> .section > a").css({"color": "white"});
-      $(".contacts").hover(function(){
 
-        $(".contact").css({"background-color": "white"});
+    },
+    function(){
+
+        $(".navbar").css({"background-color": "white"});
+    
+        $(".navbar> .section > a").css({"color": "black"});
+
+    });
+
+   
+    $(".contacts").hover(function(){
+          
+      
+        $(".contacts").css({"background-color": "white"});
+        $("#contacts").css({"color": "black"});
         
         },
         function(){
             
-            $(this).css({"background-color": "black"});
+            $(".contacts").css({"background-color": "rgba(34, 34, 34, 0)"});
+            $("#contacts").css({"color": "white"});
+
         });
 
-    },
-    function(){
-        $(".navbar").css({"background-color": "white"});
-        
 
-        $(".navbar> .section > a").css({"color": "black"});
-    });
+
+
+
+
+
+$(".contacts").click(function(){
+
+    
+$("div >ul").slideToggle(300);
+
+});
+
+
 
 
 
@@ -61,18 +80,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-    $(".navbar> .section > a").hover(function(){
-        $(".circle").css({"background-color": "#658CAD"});
-        $(".navbar> .section > a:hover").css({"color": "black"});
-    },
-    function(){
-        $(".navbar> .section > a").css({"color": "white"}); 
-    });
- 
 
 
     $(".footer > .footer-flex2 > .section > a").hover(function(){

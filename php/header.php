@@ -14,23 +14,22 @@
 
     <div>
         <nav class="navbar">
-            <div class="section me"><a href="#">HGB</a></div>
+            <div class="section me"><a href="home.php">HGB</a></div>
 
-            <div class="section contacts"><a href="contacts.php" a>Contacts</a></div>
+            <div class="section contacts"><a id="contacts">Contacts</a></div>
 
         </nav>
-        <div>
-            <ul>
-                <li>
-                    <p>Email: kojoes999@gmail.com</p>
-                </li>
-                <li>
-                    <a href="https://github.com/radna0"><img src="../images/GitHub-Mark-32px.png" alt="" /></a>
-                </li>
-                <li>
-                    <a href="#"><img src="" alt="" /></a>
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </div>
+
+        <ul>
+            <li>
+                <p>kojoes999@gmail.com</p>
+            </li>
+            <li>
+                <a href="https://github.com/radna0"><img src="../images/GitHub-Mark-32px.png" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="" alt="" /></a>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+        </ul>
