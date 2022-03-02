@@ -16,13 +16,16 @@
         <nav class="navbar">
             <div class="section me"><a href="#">HGB</a></div>
 
-            <div class="section"><a href="contacts.php" a>Contacts</a></div>
+            <div class="section contacts"><a href="contacts.php" a>Contacts</a></div>
+
+        </nav>
+        <div>
             <ul>
                 <li>
-                    <p>Emails: kojoes999@gmail.com</p>
+                    <p>Email: kojoes999@gmail.com</p>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt="" /></a>
+                    <a href="https://github.com/radna0"><img src="../images/GitHub-Mark-32px.png" alt="" /></a>
                 </li>
                 <li>
                     <a href="#"><img src="" alt="" /></a>
@@ -30,4 +33,4 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
-        </nav>
+        </div>
