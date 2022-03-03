@@ -2,7 +2,9 @@
 
 <main>
     <div class="header">ABOUT ME</div>
-
+    <div class="content">
+        <p>Hi</p>
+    </div>
 
 
 
@@ -16,6 +18,7 @@
         <div class="skill">PHP</div>
         <div class="skill">MySQL</div>
         <div class="skill">jQuery</div>
+        <div class="skill">Git</div>
     </div>
 </main>
 
