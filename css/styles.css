@@ -110,14 +110,15 @@ html {
 }
 
 .footer > .footer-flex2 > .section:first-child {
-  margin-left: 2.5rem;
+  margin-left: 1.45rem;
 }
 .footer > .footer-flex2 > .section:nth-child(2) {
-  margin-left: 3.75rem;
-  margin-right: 3rem;
+  margin-left: 2.2rem;
+  margin-right: 1.3rem;
 }
 .footer > .footer-flex2 > .section:nth-child(3) {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0rem;
 }
 
 .header {
@@ -162,15 +163,21 @@ html {
     height: 75px;
   }
   .footer > .footer-flex2 > .section:first-child {
-    margin-left: 2rem;
+    margin-left: 1.45rem;
   }
   .footer > .footer-flex2 > .section:nth-child(2) {
-    margin-left: 2.75rem;
-    margin-right: 2rem;
+    margin-left: 2.2rem;
+    margin-right: 1.3rem;
   }
   .footer > .footer-flex2 > .section:nth-child(3) {
-    margin-left: 1rem;
-    margin-right: 0.75rem;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .circle {
+    width: 50px;
+    height: 50px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -187,24 +194,39 @@ html {
   }
 
   .circle {
-    width: 75px;
-    height: 75px;
+    width: 50px;
+    height: 50px;
   }
   .footer > .footer-flex2 > .section:first-child {
-    margin-left: 2rem;
+    margin-left: 1.45rem;
   }
   .footer > .footer-flex2 > .section:nth-child(2) {
-    margin-left: 2.5rem;
-    margin-right: 2rem;
+    margin-left: 2.2rem;
+    margin-right: 1.3rem;
+  }
+  .footer > .footer-flex2 > .section:nth-child(3) {
+    margin-left: 0.5rem;
+    margin-right: 0rem;
   }
 }
 @media only screen and (max-width: 320px) {
+  .footer {
+    font-size: 1rem;
+  }
+  .circle {
+    width: 35px;
+    height: 35px;
+  }
   .footer > .footer-flex2 > .section:first-child {
-    margin-left: 2.5rem;
+    margin-left: 0.7rem;
   }
   .footer > .footer-flex2 > .section:nth-child(2) {
-    margin-left: 1.4rem;
-    margin-right: 1.4rem;
+    margin-left: 1.2rem;
+    margin-right: 0.6rem;
+  }
+  .footer > .footer-flex2 > .section:nth-child(3) {
+    margin-left: 0.3rem;
+    margin-right: 0rem;
   }
 }
 
@@ -230,14 +252,14 @@ html {
   }
 
   .footer > .footer-flex2 > .section:first-child {
-    margin-left: 1.75rem;
+    margin-left: 0.9rem;
   }
   .footer > .footer-flex2 > .section:nth-child(2) {
-    margin-left: 2.5rem;
-    margin-right: 2rem;
+    margin-left: 1.7rem;
+    margin-right: 1rem;
   }
   .footer > .footer-flex2 > .section:nth-child(3) {
-    margin-left: 1rem;
-    margin-right: 0.75rem;
+    margin-left: 0.3rem;
+    margin-right: 0rem;
   }
 }
