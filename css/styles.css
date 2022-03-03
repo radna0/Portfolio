@@ -55,6 +55,11 @@ ul li p {
   margin-bottom: 3rem;
   padding: 0.5rem;
   border: 2px solid black;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.email-btn:hover {
+  background-color: #658dada6;
+  color: white;
 }
 
 html {
@@ -137,6 +142,9 @@ html {
 }
 
 @media only screen and (max-width: 1440px) {
+  ul {
+    font-size: 1rem;
+  }
   .navbar {
     font-size: 1.25rem;
   }
@@ -201,6 +209,9 @@ html {
 }
 
 @media only screen and (max-height: 700px) {
+  ul {
+    font-size: 1rem;
+  }
   .navbar {
     font-size: 1rem;
   }
