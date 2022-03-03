@@ -15,7 +15,7 @@
         <div class="skill">JavaScript</div>
         <div class="skill">PHP</div>
         <div class="skill">MySQL</div>
-        <div class="skill">Jquery</div>
+        <div class="skill">jQuery</div>
     </div>
 </main>
 

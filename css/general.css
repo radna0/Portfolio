@@ -131,27 +131,6 @@ html {
   margin-right: 0rem;
 }
 
-.header {
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-}
-.skills-display {
-  font-size: 1.5rem;
-}
-
-.skills-box {
-  display: flex;
-  justify-content: center;
-}
-.skill {
-  border: 1px solid rgba(0, 0, 0, 0.364);
-  padding: 0.75rem 1.25rem;
-  font-size: 0.75rem;
-}
-
 @media only screen and (max-width: 1440px) {
   ul {
     font-size: 1rem;
