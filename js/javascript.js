@@ -1,6 +1,7 @@
 
 $(document).ready(function(){
     
+    
     $("a").css({"opacity": "1"});
     
     

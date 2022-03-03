@@ -32,21 +32,16 @@ a {
   text-decoration: none;
   transition: color 0.5s ease, opacity 1.5s ease;
 }
-
+.email-btn {
+}
 ul {
   display: none;
   margin: 0;
   padding: 0;
-  list-style-type: none;
-  position: relative;
-}
-
-ul {
   text-align: center;
   font-size: 1rem;
-  float: right;
+  list-style-type: none;
   background-color: white;
-  position: static;
 }
 
 ul li {
@@ -63,7 +58,6 @@ html {
 
   height: 100%;
 }
-
 .main {
   font-weight: bold;
   font-size: 7rem;
