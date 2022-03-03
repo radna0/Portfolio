@@ -32,8 +32,7 @@ a {
   text-decoration: none;
   transition: color 0.5s ease, opacity 1.5s ease;
 }
-.email-btn {
-}
+
 ul {
   display: none;
   margin: 0;
@@ -46,12 +45,18 @@ ul {
 
 ul li {
   padding: 5px;
+  margin: 0;
   display: block;
 }
 ul li p {
-  margin-top: 0px;
   padding: 0.5rem;
 }
+.email-btn {
+  margin-bottom: 3rem;
+  padding: 0.5rem;
+  border: 3px solid black;
+}
+
 html {
   background: url(../images/blue.svg) no-repeat center center fixed;
   background-size: cover;

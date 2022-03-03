@@ -22,15 +22,13 @@
 
         <ul>
             <li>
-                <a class="email-btn" target="_blank" href="mailto:kojoes999@gmail.com">Email Me</a>
+
                 <p>kojoes999@gmail.com</p>
             </li>
             <li>
                 <a target="_blank" href="https://github.com/radna0"><img src="../images/GitHub-Mark-32px.png" alt="" /></a>
             </li>
-            <li>
-                <a href="#"><img src="" alt="" /></a>
-            </li>
             <li><a href="#">About</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li> <a class="email-btn" target="_blank" href="mailto:kojoes999@gmail.com">Email Me</a></li>
+            <br>
         </ul>
