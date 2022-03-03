@@ -14,7 +14,7 @@
 
     <div>
         <nav class="navbar">
-            <div class="section me"><a href="home.php">HGB</a></div>
+            <div class="section me"><a>HGB</a></div>
 
             <div class="section contacts"><a id="contacts">Contacts</a></div>
 
