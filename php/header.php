@@ -22,7 +22,7 @@
 
         <ul>
             <li>
-
+                <img src="../images/email.png" alt="">
                 <p>kojoes999@gmail.com</p>
             </li>
             <li>

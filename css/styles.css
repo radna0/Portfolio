@@ -48,8 +48,18 @@ ul li {
   margin: 0;
   display: block;
 }
+ul li img {
+  width: 20px;
+  height: 20px;
+}
 ul li p {
-  padding: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: 0.5rem;
+}
+ul li a img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
 }
 .email-btn {
   margin-bottom: 3rem;
