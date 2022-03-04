@@ -1,9 +1,9 @@
 <?php require('../php/header.php'); ?>
 
+<main>
+    <div class="header">PROJECTS</div>
 
-
-
-
+</main>
 <?php require('../php/footer.php'); ?>
 
 
