@@ -1,23 +1,60 @@
-.header {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+/* aboutMe section */
+#about_me {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-top: 0;
+  margin-bottom: 20rem;
+  line-height: 1.5;
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(1, 0, 0.27, -0.02);
+  animation-duration: 2s;
 }
-.content {
-  font-size: 2rem;
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+@keyframes aboutMe {
+  0% {
+    margin-top: 40rem;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
-.skills-display {
+
+.section {
+  text-align: center;
+  margin: 3rem 0rem 2rem;
+}
+.section_header {
+  font-size: 2.5rem;
+}
+
+#about_me_section {
+}
+
+.content p {
   font-size: 2rem;
 }
 
-.skills-box {
-  padding-left: 10rem;
-  padding-right: 10rem;
+/* skills section */
+
+#skills {
+  opacity: 0;
+  margin-top: 0;
+  margin-bottom: 20rem;
+  transition: opacity 0.5s cubic-bezier(1, 0, 0.27, -0.02);
+  animation-duration: 2s;
+}
+@keyframes skills {
+  0% {
+    margin-top: 40rem;
+  }
+  100% {
+    margin-top: 0rem;
+  }
+}
+
+#skills_section {
+}
+
+.skills_box {
   display: flex;
   justify-content: center;
 }
@@ -25,17 +62,62 @@
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.364);
   padding: 0.75rem 1.25rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
-@media (max-width: 600px) {
-  .skills-box {
-    flex-direction: column;
-    justify-content: center;
+
+/* responsive for  aboutMe and skills section*/
+@media (max-width: 1440px) {
+  #about_me {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .content p {
+    font-size: 1.75rem;
+  }
+  .skill {
+    font-size: 1.25rem;
   }
 }
-@media (max-width: 475px) {
-  .skills-box {
-    padding-left: 5rem;
-    padding-right: 5rem;
+@media (max-width: 1024px) {
+  #about_me {
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+  }
+  .content p {
+    font-size: 1.5rem;
+  }
+  .skills_box {
+    flex-direction: column;
+  }
+  .skill {
+    align-self: center;
+    width: 18rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #about_me {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  .content p {
+    font-size: 1.25rem;
+  }
+  .skill {
+    width: 15rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #about_me {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .skill {
+    width: 12rem;
+    font-size: 1rem;
   }
 }

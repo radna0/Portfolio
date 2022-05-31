@@ -1,0 +1,4 @@
+
+*CSS
+- Classes names separated by Underscore ( _ ) 
+- Keyframes are named using camelCase 
